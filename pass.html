@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>パスワードチェック</title>
+</head>
+<body>
+    <p>どのくらいの秒で自分が設定しているパスワードが突破されてしまうか確認してみましょう</p>
+    <p>※何秒間まてとか、10回までとは計算しておりませんのでご注意を・計算完了後コンソールが表示されます</p>
+    <p>※運が悪ければ、永久に計算することになります・4文字のみとなっています</p>
+    <input type="text" id="data">
+    <input type="number" id="num" value="4">
+    <input type="submit" onclick="pass()">
+    <textarea id="area1" rows="20" cols="50"></textarea>
+    <script src="pass.js"></script>
+</body>
+</html>

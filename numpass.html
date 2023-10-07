@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>数字パスワードチェック</title>
+</head>
+<body>
+    <p>どのくらいの秒で自分が設定しているパスワードが突破されてしまうか確認してみましょう</p>
+    <p>※何秒間まてとか、10回までとは計算しておりませんのでご注意を</p>
+    <p>※5000を超える場合は重たくなる場合があります・数字のみの対応・計算完了後コンソールが表示されます</p>
+    <input type="number" id="pass">
+    <input type="submit" onclick="pass()">
+    <textarea id="area1" rows="20" cols="50"></textarea>
+    <script src="numpass.js"></script>
+</body>
+</html>
